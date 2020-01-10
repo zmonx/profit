@@ -1,27 +1,25 @@
-	package profit;
-
+//package profit;
 public class Salary {
 	
-	public double sarary;
+	public double salary;
 	public double commission;
 	
 	
 	
-	public Salary(double sarary, double scommission) {
-		this.sarary = sarary;
-		this.commission = commission;
+	public Salary(double sarary) {
+		this.salary = sarary;
 	}
 
 
 
 	public double getSarary() {
-		return sarary;
+		return salary;
 	}
 
 
 
 	public void setSarary(double sarary) {
-		this.sarary = sarary;
+		this.salary = sarary;
 	}
 
 
