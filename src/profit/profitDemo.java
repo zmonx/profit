@@ -6,6 +6,7 @@ public class profitDemo {
 		// TODO Auto-generated method stub
 		System.out.println("hello word ");
 		System.out.println("test 2");
+		System.out.println("fffff");
 	}
 
 }
