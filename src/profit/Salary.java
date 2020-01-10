@@ -3,11 +3,12 @@ public class Salary {
 	
 	public double salary;
 	public double commission;
-	
+	public double bonus;
 	
 	
 	public Salary(double sarary) {
 		this.salary = sarary;
+		this.bonus=0;
 	}
 
 
@@ -17,6 +18,9 @@ public class Salary {
 	}
 
 
+	public void setBonus() {
+		this.bonus += 3000;
+	}
 
 	public void setSarary(double sarary) {
 		this.salary = sarary;

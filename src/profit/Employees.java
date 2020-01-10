@@ -40,6 +40,6 @@ public class Employees {
 
 	@Override
 	public String toString() {
-		return String.format("Name %s Salary+commission %.2f",this.name,sl.salary+sl.commission);
+		return String.format("Name %s Salary+commission+bonus %.2f",this.name,sl.salary+sl.commission+sl.bonus);
 	}
 }

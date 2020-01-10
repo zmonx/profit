@@ -2,6 +2,9 @@ package profit;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import sdlgjsjgjs.Employees;
+import sdlgjsjgjs.Salary;
+
 
 public class profitDemo {
 
@@ -35,7 +38,7 @@ public class profitDemo {
 			System.out.println("Enter saleamount");
 			double sale=input.nextDouble();
 			for(int i=0;i<em.size();i++) {
-				if(em.get(i).equals(num)) {
+				if(em.get(i).getId().equals(num)) {
 					index=i;
 					ep=true;
 					break;
@@ -43,23 +46,30 @@ public class profitDemo {
 					ep=false;
 			}
 			if(ep) {
-				if(sale>50000)
+				if(sale>100000)
 					com=3*100*sale;
-				else if(sale>25000)
+				else if(sale>50000)
 					com=2*100*sale;
 				else
 					com=1*100*sale;
 				s.get(index).setCommission(com);
 					
-			}else
+			}else {
 				System.out.println("not have Employees number");
+			}
 			System.out.println("Do you want enter again [y/n]");
 			ch = input.next().charAt(0);
 		}while(ch=='y');
+		for(int i=0;i<em.size();i++) {
+			if(s.get(i).salary<15000&&s.get(i).commission>100000)
+				s.get(i).setBonus();
+		}
 		for (int i = 0; i <em.size() ; i++) {
 			System.out.println(em.get(i).toString());
 
+
 		}
+
 	}
 
 }
