@@ -44,9 +44,9 @@ public class profitDemo {
 					ep=false;
 			}
 			if(ep) {
-				if(sale>50000)
+				if(sale>100001)
 					com=3*100*sale;
-				else if(sale>25000)
+				else if(sale>50001)
 					com=2*100*sale;
 				else
 					com=1*100*sale;
