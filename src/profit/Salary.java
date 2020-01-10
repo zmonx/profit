@@ -1,5 +1,4 @@
-	package profit;
-
+//package profit;
 public class Salary {
 	
 	public double salary;

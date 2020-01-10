@@ -1,11 +1,8 @@
-package profit;
 
-import java.util.Scanner;
-
-import sdlgjsjgjs.Employees;
-import sdlgjsjgjs.Salary;
 
 import java.util.ArrayList;
+import java.util.Scanner;
+
 
 public class profitDemo {
 
@@ -60,6 +57,10 @@ public class profitDemo {
 			System.out.println("Do you want enter again [y/n]");
 			ch = input.next().charAt(0);
 		}while(ch=='y');
+		for (int i = 0; i <em.size() ; i++) {
+			System.out.println(em.get(i).toString());
+
+		}
 	}
 
 }
