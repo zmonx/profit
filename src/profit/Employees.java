@@ -10,7 +10,7 @@ public class Employees {
 		this.salary=s;
 	}
 	public Salary getSalary() {
-		retuen salary;
+		return salary;
 	}
 	
 	public Employees(String name, String id) {
