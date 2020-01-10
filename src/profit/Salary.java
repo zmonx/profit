@@ -1,4 +1,4 @@
-package profit;
+	package profit;
 
 public class Salary {
 	
@@ -8,7 +8,6 @@ public class Salary {
 	
 	
 	public Salary(double sarary, double scommission) {
-		super();
 		this.sarary = sarary;
 		this.commission = commission;
 	}
