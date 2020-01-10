@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package profit;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -64,4 +63,4 @@ public class profitDemo {
 	}
 
 }
->>>>>>> projectA
+
