@@ -36,7 +36,7 @@ public class profitDemo {
 			System.out.println("Enter saleamount");
 			double sale=input.nextDouble();
 			for(int i=0;i<em.size();i++) {
-				if(em.get(i).equals(num)) {
+				if(em.get(i).getId().equals(num)) {
 					index=i;
 					ep=true;
 					break;
